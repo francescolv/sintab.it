@@ -1,0 +1,12 @@
+#Please use the main menu items under the "text"
+
+- text: Home
+  url: /
+- text: About
+  url: /#aboutus
+- text: Services
+  url: /pages/services
+- text: Pages
+  url: /
+- text: Contact
+  url: /pages/contact

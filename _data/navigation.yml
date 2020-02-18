@@ -2,11 +2,9 @@
 
 - text: Home
   url: /
-- text: About
-  url: /#aboutus
-- text: Services
+- text: Chi Siamo
+  url: /pages/about
+- text: Servizi
   url: /pages/services
-- text: Pages
-  url: /
-- text: Contact
+- text: Contatti
   url: /pages/contact

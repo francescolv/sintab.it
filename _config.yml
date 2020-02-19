@@ -33,6 +33,8 @@ collections:
     output: true
   services:
     output: true
+  certificazioni:
+    output: true
 
 ########################################################
 # Site configuration for the Jekyll 3 Pagination Gem

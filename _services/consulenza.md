@@ -2,7 +2,7 @@
 layout: featured
 title: Consulenza aziendale
 icon: /assets/img/icons/algolia-brands.svg
-image: /assets/img/services/02.jpg
+#image: /assets/img/services/02.jpg
 description: Consulenza
 ---
 
@@ -45,3 +45,4 @@ description: Consulenza
         Integer in mauris nibh euismod gravida.
         Duis ac tellus et risus vulputate vehicula.</p>
 </div>
+{% include related_projects.html %}

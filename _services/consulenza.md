@@ -2,7 +2,7 @@
 layout: featured
 title: Consulenza aziendale
 icon: /assets/img/icons/algolia-brands.svg
-#image: /assets/img/services/02.jpg
+image: /assets/img/services/02.jpg
 description: Consulenza
 ---
 

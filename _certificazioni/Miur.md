@@ -2,6 +2,7 @@
 layout: featured
 title: MIUR
 icon: /assets/img/icons/algolia-brands.svg
+classecss: miur
 #image: /assets/img/services/02.jpg
 description: MIUR
 ---

@@ -2,7 +2,7 @@
 layout: featured
 title: Accreditamento Regione Abruzzo
 icon: /assets/img/icons/algolia-brands.svg
-
+classecss: regioneabruzzo
 #image: /assets/img/services/02.jpg
 description: Accreditamento Regione Abruzzo
 ---

@@ -3,6 +3,7 @@ layout: featured
 title: Formazione Continua
 image: /assets/img/services/01.jpg
 icon: /assets/img/icons/layer-group-solid.svg
+classecss: sfondodefault
 description: Formazione
 ---
 

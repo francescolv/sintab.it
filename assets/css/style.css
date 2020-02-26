@@ -759,7 +759,6 @@ label {
 	padding: 50px 30px;
 }
 .features-wrap:hover {
-	background-image: url(../img/about/5.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: local;
@@ -779,6 +778,28 @@ label {
 	font-weight: 600;
 	color: #ff5e14;
 }
+
+/* cambiare qui per le fetured images come background   */
+.regioneabruzzo:hover {
+	background-image: url(../img/about/our-team.jpg);
+}
+.miur:hover {
+	background-image: url(../img/about/5.jpg);
+}
+.confindustria:hover {
+	background-image: url(../img/about/5.jpg);
+}
+
+.qualita:hover {
+	background-image: url(../img/about/5.jpg);
+}
+
+.sfondodefault:hover {
+	background-image: url(../img/about/5.jpg);
+}
+
+/* FINE cambiare qui per le fetured images come background */
+
 .home-three-about {
 	margin-top: -150px;
 	background: #fff;

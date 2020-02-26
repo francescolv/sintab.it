@@ -3,6 +3,7 @@ layout: featured
 title: Innovazione tecnologica
 icon: /assets/img/icons/air-freshener-solid.svg
 image: /assets/img/services/03.jpg
+classecss: sfondodefault
 description: Innovazione
 ---
 

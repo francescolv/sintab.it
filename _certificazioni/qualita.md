@@ -2,6 +2,7 @@
 layout: featured
 title: Lloyd's Register Quality
 icon: /assets/img/icons/algolia-brands.svg
+classecss: qualita
 #image: /assets/img/services/02.jpg
 description: Lloyd's Register Quality
 ---

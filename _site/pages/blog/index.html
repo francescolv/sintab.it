@@ -6,14 +6,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name='description' content='il nuovo fantastico look di Sintab srl'>
+    <meta name='description' content='il nuovo fantastico look di Sintab srl scritto in Jekyll'>
     <meta name="keywords" content="">
     <!-- Facebook Open Graph -->	
     <meta content="Sintab srl" property="og:site_name">
     <meta property="og:locale" content="en_US" />
     <meta content="Blog" property="og:title">
     <meta content="article" property="og:type">
-    <meta content="il nuovo fantastico look di Sintab srl" property="og:description">
+    <meta content="il nuovo fantastico look di Sintab srl scritto in Jekyll" property="og:description">
     <meta content="http://localhost:4000/pages/blog/index.html" property="og:url">	
     <meta content="/assets/img/bg/page-title.jpg" property="og:image">
     
@@ -23,7 +23,7 @@
     <meta name="twitter:site"    content="@">
     <meta name="twitter:creator" content="@">
     <meta name="twitter:title"   content="Blog">	
-    <meta name="twitter:description" content="il nuovo fantastico look di Sintab srl">
+    <meta name="twitter:description" content="il nuovo fantastico look di Sintab srl scritto in Jekyll">
     <meta name="twitter:card"  content="summary"><meta name="twitter:image" content="/assets/img/bg/page-title.jpg">
     <!-- Site Title -->
     <title> Blog </title>
@@ -63,6 +63,9 @@
                     <span>Seguici:</span>
                     <a href="https://www.facebook.com/sintabsrl"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://twitter.com/sintabsrl"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/514453"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/sintabsrl"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCaYXkTwT3bkxhrsSNKxqN2A"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
         </div>
@@ -111,7 +114,17 @@
     
      
      <li>
-         <a href="/pages/services">Servizi</a>
+         <a href="">Servizi<i class="icofont-simple-down"></i></a>
+        
+        <ul class="sub-menu">
+            
+            <li><a href="/services/consulenza">Consulenza</a></li>
+            
+            <li><a href="/services/formazione_continua">Formazione</a></li>
+            
+            <li><a href="/services/scuola">Scuola</a></li>
+            
+        </ul>
         
     </li>
     
@@ -130,6 +143,7 @@
 </nav>
                     </div>
                 </div>
+                <!--
                 <div class="col-xl-1 col-lg-1 d-none d-lg-block">
                     <div class="menu-icon">
                         <i class="icofont-search-1" data-toggle="modal" data-target="#search-modal"></i>
@@ -140,10 +154,12 @@
                         </a>
                     </div>
                 </div>
+                -->
                 <div class="col-12">
                     <div class="mobile-menu"></div>
                 </div>
             </div>
+            
             <div class="offcanvas-menu">
              <span class="menu-close"><i class="fas fa-times"></i></span>
 <ul>
@@ -157,6 +173,12 @@
        
     
 </ul>
+<ul>
+<li><a href="/pages/servizi.html">Servizi</a></li>
+<li><a href="/pages/about.html">Chi Siamo</a></li>
+<li><a href="/pages/contact.html">Contatti</a></li>
+</ul>
+
 <div class="side-social">
     
     <a href="https://www.facebook.com/sintabsrl"><i class="fab fa-facebook-f"></i></a>
@@ -165,21 +187,33 @@
     <a href="https://twitter.com/sintabsrl"><i class="fab fa-twitter"></i></a>
     
     
-    <a href="https://www.pinterest.com/sintabsrl"><i class="fab fa-pinterest-p"></i></a>
     
-    
-    <a href="https://www.linkenin.com/sintabsrl"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.linkedin.com/company/514453"><i class="fab fa-linkedin-in"></i></a>
     
     
     <a href="https://www.instagram.com/sintabsrl"><i class="fab fa-instagram"></i></a>
     
+    
+    <a href="https://www.youtube.com/channel/UCaYXkTwT3bkxhrsSNKxqN2A"><i class="fab fa-youtube"></i></a>
+    
 </div>
             </div>
             <div class="offcanvas-overly"></div>
+            
         </div>
     </div>
+    <!-- Cookie Consent by https://www.CookieConsent.com -->
+<script type="text/javascript" src="//www.cookieconsent.com/releases/3.1.0/cookie-consent.js"></script>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"light","language":"it","website_name":"https://www.sintab.it"});
+});
+</script>
+
+<noscript>ePrivacy and GPDR Cookie Consent by <a href="https://www.CookieConsent.com/" rel="nofollow noopener">Cookie Consent</a></noscript>
+<!-- End Cookie Consent by https://www.CookieConsent.com -->
 </header>
-<!-- Modal Search -->
+<!-- Modal Search
 <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
         <div class="modal-content">
@@ -191,6 +225,7 @@
         </div>
     </div>
 </div>
+ -->
 <main> 
 <!-- breadcrumb-area -->
 <section class="breadcrumb-area grey-bg" style="background-image:url(/assets/img/bg/page-title.jpg)">
@@ -198,107 +233,395 @@
         <div class="row align-items-center">
             <div class="col-xl-8 col-md-6">
                 <div class="breadcrumb-title sm-size">
-                    <h2>Blog</h2>
-                </div>
+                   <!-- <h2>Blog</h2>
+                </div> -->
             </div>
             <div class="col-xl-4 col-md-6 text-left text-md-right">
                 <div class="breadcrumb">
-                    <ul>
+                    <!--<ul>
                         <li><a href="http://localhost:4000">Home</a></li>
                         <li class="text-white pl-1"></li>
                         <li class="text-white pl-1">Blog</li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<div class="basic-blog-area gray-bg pt-100 pb-100">
+<header>
+    <div class="header-top blue-bg">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 blog-post-items">
-              
-                <div class="blog-wrapper mb-40">
-                    <div class="blog-thumb">
-                        <a href="/welcome-to-jekyll">
-                            <img class="img-fluid" src="/assets/img/blog/03.jpg" alt="Welcome to Jekyll! Go ahead and edit"/>
+        <div class="row align-items-center">
+            <div class="col-xl-6 col-lg-6 col-md-8 text-center text-md-left">
+                <div class="header-top-cta">
+                    <span><i class="fas fa-map-marker-alt"></i>Sulmona (AQ)</span>
+                    <span><i class="far fa-envelope-open"></i>info@sintab.it</span>
+                    <span><i class="fas fa-phone"></i>+39 0864 212817</span>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-4 text-center text-md-right">
+                <div class="top-social-links">
+                    <span>Seguici:</span>
+                    <a href="https://www.facebook.com/sintabsrl"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/sintabsrl"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/514453"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/sintabsrl"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCaYXkTwT3bkxhrsSNKxqN2A"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="sticky-header" class="menu-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-5">
+                    <div class="logo">
+                        <a href="http://localhost:4000"><img src="/assets/img/logo/logo.png" class="img-fluid" alt="Sintab srl"></a>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-9 text-right">
+                    <div class="main-menu">
+                      <nav id="mobile-menu">
+<ul>
+    
+    
+    
+
+    
+
+    
+     
+     <li>
+         <a href="/">Home</a>
+        
+    </li>
+    
+    
+
+    
+
+    
+     
+     <li>
+         <a href="/pages/about">Chi Siamo</a>
+        
+    </li>
+    
+    
+
+    
+
+    
+     
+     <li>
+         <a href="">Servizi<i class="icofont-simple-down"></i></a>
+        
+        <ul class="sub-menu">
+            
+            <li><a href="/services/consulenza">Consulenza</a></li>
+            
+            <li><a href="/services/formazione_continua">Formazione</a></li>
+            
+            <li><a href="/services/scuola">Scuola</a></li>
+            
+        </ul>
+        
+    </li>
+    
+    
+
+    
+
+    
+     
+     <li>
+         <a href="/pages/contact">Contatti</a>
+        
+    </li>
+    
+</ul>
+</nav>
+                    </div>
+                </div>
+                <!--
+                <div class="col-xl-1 col-lg-1 d-none d-lg-block">
+                    <div class="menu-icon">
+                        <i class="icofont-search-1" data-toggle="modal" data-target="#search-modal"></i>
+                        <a href="#" class="menu-tigger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
                         </a>
                     </div>
-                    <div class="meta-info">
-                        <ul>
-                            <li class="posts-time">08 April 2019</li>
-                        </ul>
-                    </div>
-                    <div class="blog-content">
-                        <h2 class="blog-title">
-                            <a href="/welcome-to-jekyll">Welcome to Jekyll! Go ahead and edit</a>
-                        </h2>
-                        <p>You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...</p>
-                    </div>
-                    <div class="link-box">
-                        <a href="/welcome-to-jekyll">Read More</a>
-                    </div>
                 </div>
-              
-             
+                -->
+                <div class="col-12">
+                    <div class="mobile-menu"></div>
+                </div>
             </div>
-            <div class="col-lg-4 sm-mt sidebar-blog right-side">
-             <div class="widget">
-    <h4 class="widget-title">Recent Posts</h4>
-    <div class="sidebar-rc-post">
-        <ul>
-           
-            <li>
-                <div class="rc-post-thumb">
-                    <a href="/welcome-to-jekyll">
-                        <img src="/assets/img/blog/03.jpg" alt="Welcome to Jekyll! Go ahead and edit"/>
-                    </a>
-                </div>
-                <div class="rc-post-content">
-                    <h4>
-                        <a href="/welcome-to-jekyll">Welcome to Jekyll! Go ahead and edit</a>
-                    </h4>
-                    <div class="widget-date">08 April 2019</div>
-                </div>
-            </li>
-           
-        </ul>
-    </div>
-</div>
-<div class="widget">
-    <h4 class="widget-title">Banner Advertise</h4>
-    <div class="widget-banner">
-      <a href="#"><img src="/assets/img/blog/banner.jpg" alt="advertise"/></a>
-    </div>
-</div>
-<div class="widget">
-    <h4 class="widget-title">Categories</h4>
-    <div class="widget-link">
-        <ul class="sidebar-link">
-          
             
-            <li>
-              <a class="text-capitalize" href="/category/jekyll-update/">jekyll update</a>
-            </li>
-            
-        </ul>
-    </div>
+            <div class="offcanvas-menu">
+             <span class="menu-close"><i class="fas fa-times"></i></span>
+<ul>
+    
+       
+    
+       
+    
+       
+    
+       
+    
+</ul>
+<ul>
+<li><a href="/pages/servizi.html">Servizi</a></li>
+<li><a href="/pages/about.html">Chi Siamo</a></li>
+<li><a href="/pages/contact.html">Contatti</a></li>
+</ul>
+
+<div class="side-social">
+    
+    <a href="https://www.facebook.com/sintabsrl"><i class="fab fa-facebook-f"></i></a>
+    
+    
+    <a href="https://twitter.com/sintabsrl"><i class="fab fa-twitter"></i></a>
+    
+    
+    
+    <a href="https://www.linkedin.com/company/514453"><i class="fab fa-linkedin-in"></i></a>
+    
+    
+    <a href="https://www.instagram.com/sintabsrl"><i class="fab fa-instagram"></i></a>
+    
+    
+    <a href="https://www.youtube.com/channel/UCaYXkTwT3bkxhrsSNKxqN2A"><i class="fab fa-youtube"></i></a>
+    
 </div>
-<div class="widget">
-    <h4 class="widget-title">Popular Tags</h4>
-    <div class="widget-tags">
-        <div class="sidebar-tad">
-            <a href="/tag/jekyll/" class="set-5">jekyll</a>
+            </div>
+            <div class="offcanvas-overly"></div>
+            
+        </div>
+    </div>
+    <!-- Cookie Consent by https://www.CookieConsent.com -->
+<script type="text/javascript" src="//www.cookieconsent.com/releases/3.1.0/cookie-consent.js"></script>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"light","language":"it","website_name":"https://www.sintab.it"});
+});
+</script>
+
+<noscript>ePrivacy and GPDR Cookie Consent by <a href="https://www.CookieConsent.com/" rel="nofollow noopener">Cookie Consent</a></noscript>
+<!-- End Cookie Consent by https://www.CookieConsent.com -->
+</header>
+<!-- Modal Search
+<div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <form>
+                <input type="text" id="search-input" placeholder="Search blog posts..">
+                <button><i class="fa fa-search"></i></button>
+            </form>
+            <ul id="results-container"></ul>
         </div>
     </div>
 </div>
-
-
+ -->
+<main>
+    <section class="slider-area">
+    <div class="slider-active">
+        <div class="single-slider slider-bg d-flex align-items-center" style="background-image:url(/assets/img/slider/slider1.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="slider-content">
+                            <h1 data-animation="fadeInDown" data-delay=".2s">Competenza <br>Professionalità <br>Passione</h1>
+                            <!--<a href="#" class="btn" data-animation="fadeInUp" data-delay=".6s">get started</a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <br>
+    <div class="container pt-3 ">
+        <p><h4>SINTAB Srl, 
+        soluzioni innovative per l’organizzazione aziendale e la gestione della conoscenza</h4></p>
+    </div>
+    <br>    
+    <section class="service-area grey-bg pb-70 pt-100">
+    <div class="container">
+        <!--
+        <div class="row">
+            <div class="col-xl-12 text-center mb-40">
+                <div class="section-title service-title">
+                    <h2></h2>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        -->
+        <div class="row">
+            
+            <div class="col-lg-4 col-md-6 text-center mb-30">
+                <div class="features-wrap consulenza">
+                    
+                    <div class="features-icon">
+                        <a href="/services/consulenza"><img src="/assets/img/icons/consulenzablu.svg" alt="Consulenza aziendale"></a>
+                    </div>
+                    
+                    <h4>Consulenza aziendale</h4>
+                    <!-- <p>Consulenza</p>
+                   <a href="/services/consulenza">Leggi Tutto</a> -->
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 text-center mb-30">
+                <div class="features-wrap formazione">
+                    
+                    <div class="features-icon">
+                        <a href="/services/formazione_continua"><img src="/assets/img/icons/formazionecontinuablu.svg" alt="Formazione Continua"></a>
+                    </div>
+                    
+                    <h4>Formazione Continua</h4>
+                    <!-- <p>Formazione</p>
+                   <a href="/services/formazione_continua">Leggi Tutto</a> -->
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 text-center mb-30">
+                <div class="features-wrap scuola">
+                    
+                    <div class="features-icon">
+                        <a href="/services/scuola"><img src="/assets/img/icons/mondoscuolablu.svg" alt="Mondo Scuola"></a>
+                    </div>
+                    
+                    <h4>Mondo Scuola</h4>
+                    <!-- <p>Corsi riconosciuti dal MIUR</p>
+                   <a href="/services/scuola">Leggi Tutto</a> -->
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+    <div class="counter-area pb-100 pt-100" data-overlay="7" style="background-image:url(/assets/img/counterBg/bg1.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-md-3 col-sm-6 z-index">
+                <div class="single-counter text-center mb-30">
+                    <span class="lnr lnr-users"></span>
+                    <div class="counter">10.000</div>
+                    <p>Lavoratori formati</p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-3 col-sm-6 z-index">
+                <div class="single-counter text-center mb-30">
+                    <span class="lnr lnr-user"></span>
+                    <div class="counter">20</div>
+                    <p>Collaboratori</p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-3 col-sm-6 z-index">
+                <div class="single-counter text-center mb-30">
+                    <span class="lnr lnr-book"></span>
+                    <div class="counter">60</div>
+                    <p>Corsi in catalogo</p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-3 col-sm-6 z-index">
+                <div class="single-counter text-center mb-30">
+                    <span class="lnr lnr-film-play"></span>
+                    <div class="counter">190.000</div>
+                    <p>Ore sul canale Youtube</p>
+                </div>
             </div>
         </div>
     </div>
 </div>
+    <div class="clients-area pt-50 pb-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 text-center mb-40">
+                <div class="section-title service-title">
+                    <h2>CLIENTI</h2>
+                    <p></p>
+                </div>
+            </div>
+            <div class="clients-active owl-carousel">
+                <div class="col-sm-12">
+                    <div class="single-clients">
+                        <img src="/assets/img/clients/citta_venezia.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="single-clients">
+                        <img src="/assets/img/clients/enpacl_1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="single-clients">
+                        <img src="/assets/img/clients/guardia_finanza.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="single-clients">
+                        <img src="/assets/img/clients/hydro.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="single-clients">
+                        <img src="/assets/img/clients/semiconductor.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="single-clients">
+                        <img src="/assets/img/clients/saes.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="single-clients">
+                        <img src="/assets/img/clients/regione_abruzzo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="single-clients">
+                        <img src="/assets/img/clients/zappa _grigio.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="single-clients">
+                        <img src="/assets/img/clients/argenta.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="single-clients">
+                        <img src="/assets/img/clients/enel.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <section class="portfolio-cta grey-bg pt-50 pb-20">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-9 mb-30">
+                <div class="call-to-action">
+                    <h3>Siamo pronti per il tuo prossimo progetto</h3>
+                </div>
+            </div>
+            <div class="col-md-3 mb-30">
+                <div class="call-to-action">
+                    <a href="/pages/contact.html" class="btn">Contattaci</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
 </main>
 
     <footer class="footer-section">
@@ -335,25 +658,10 @@
             </div>
         </div>
         <div class="footer-content pt-50 pb-30">
-            <div class="footer-pattern">
+           <!-- <div class="footer-pattern">
                 <img src="/assets/img/footer/footer_map.png" alt="">
-            </div>
+            </div> -->
             <div class="row">
-                <div class="col-xl-4 col-lg-4 mb-50">
-                    <div class="footer-widget">
-                        <div class="footer-logo">
-                            <a href="http://localhost:4000"><img src="/assets/img/logo/footer_logo.png" class="img-fluid" alt="Sintab srl"></a>
-                        </div>
-                        <div class="footer-text">
-                            <p>Sintab è il partner ideale per professionisti, aziende e enti pubblici</p>
-                        </div>
-                        <div class="footer-social-icon">
-                            <span>Seguici sui Social</span>
-                            <a href="https://www.facebook.com/sintabsrl"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                            <a href="https://twitter.com/sintabsrl"><i class="fab fa-twitter twitter-bg"></i></a>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                     <div class="footer-widget">
                         <div class="footer-widget-heading">
@@ -362,22 +670,53 @@
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="https://www.scuolawebinar.it">Scuolawebinar.it</a></li>
-                            <li><a href="https://www.eduko.it">Eduko.it</a></li>
-                            <li><a href="https://www.matematicare.it">Matematicare.it</a></li>
-                            <li><a href="https://www.nontemiamolamatematica.it">Non temiAmo la Matematica</a></li>
+                            <li><a href="https://www.skillsrevolution.school/">Skillsrevolution.school</a></li>
+                            <li><a href="https://www.matematicare.it">Matematicare.it</a></li>                            
                         </ul>
                     </div>
                 </div>
+                              
                 <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
                     <div class="footer-widget">
                         <div class="footer-widget-heading">
                             <h3>Newsletter</h3>
                         </div>
                         <div class="footer-text mb-25">
-                            <p>Rimani aggiornato, iscriviti alla nostra <a href="/pages/contact">Newsletter</a></p>
+                            <p class="text-white">Rimani aggiornato 
+                                <data id="mj-w-res-data" data-token="0c400a1dd46234f9d933780607deb00d" class="mj-w-data" data-apikey="2b2x" data-w-id="HYV" data-lang="it_IT" data-base="https://app.mailjet.com" data-width="640" data-height="328" data-statics="statics"></data>
+                                <div class="mj-w-button mj-w-btn" style="font-family: Ubuntu, Helvetica; color: #1916ec; padding: 0 25px; background-color: #FFD600; text-align: center; vertical-align: middle; display: inline-block; border-radius: 3px;" data-token="0c400a1dd46234f9d933780607deb00d">
+                                    <div style="display: table; height: 45px;">
+                                        <div style="display: table-cell; vertical-align: middle;">
+                                            <div class="mj-w-button-content" style="font-family:Ubuntu, Helvetica; display: inline-block; text-align: center; font-size: 13px; vertical-align: middle;">
+                                                <a href="/pages/contact" data-token="3435a3788b6fc9d6c67eacf96d56a147" onclick="mjOpenPopin(event, this)"><b>ISCRIVITI ALLA NOSTRA NEWSLETTER!</b></a> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <script type="text/javascript" src="https://app.mailjet.com/statics/js/widget.modal.js"></script></p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <!-- <div class="footer-logo">
+                            <a href="http://localhost:4000"><img src="/assets/img/logo/footer_logo.png" class="img-fluid" alt="Sintab srl"></a>
+                        </div> 
+                        <div class="footer-text">
+                            <p>Sintab è il partner ideale per professionisti, aziende e enti pubblici</p>
+                        </div> -->
+                        <div class="footer-social-icon">
+                            <span>Seguici sui Social</span>
+                            <a href="https://www.facebook.com/sintabsrl"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                            <a href="https://twitter.com/sintabsrl"><i class="fab fa-twitter twitter-bg"></i></a>
+                            <a href="https://www.linkedin.com/company/514453"><i class="fab fa-linkedin linkedin-bg"></i></a>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>

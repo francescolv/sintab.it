@@ -8,6 +8,12 @@
        {% endif %}
     {% endfor %}
 </ul>
+<ul>
+<li><a href="/pages/servizi.html">Servizi</a></li>
+<li><a href="/pages/about.html">Chi Siamo</a></li>
+<li><a href="/pages/contact.html">Contatti</a></li>
+</ul>
+
 <div class="side-social">
     {% if site.facebook_url %}
     <a href="{{site.facebook_url}}"><i class="fab fa-facebook-f"></i></a>
@@ -23,5 +29,8 @@
     {% endif %}
     {% if site.instagram_url %}
     <a href="{{site.instagram_url}}"><i class="fab fa-instagram"></i></a>
+    {% endif %}
+    {% if site.youtube_url %}
+    <a href="{{site.youtube_url}}"><i class="fab fa-youtube"></i></a>
     {% endif %}
 </div>

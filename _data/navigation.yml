@@ -5,6 +5,13 @@
 - text: Chi Siamo
   url: /pages/about
 - text: Servizi
-  url: /pages/services
+  submenu:
+    - text: Consulenza
+      url: "/services/consulenza"
+    - text: Formazione
+      url: "/services/formazione_continua"
+    - text: Scuola
+      url: "/services/scuola"
 - text: Contatti
   url: /pages/contact
+  

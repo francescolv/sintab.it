@@ -52,7 +52,7 @@ a.meanmenu-reveal {
 .mean-container .mean-nav {
 	float: left;
 	width: 100%;
-	background: #0c1923;
+	background: #2754a0;
 	margin-top: 10px;
 }
 
@@ -60,7 +60,7 @@ a.meanmenu-reveal {
 	padding: 0;
 	margin: 0;
 	width: 100%;
-	list-style-type: none;
+	list-style-type: disc;
 }
 
 .mean-container .mean-nav ul li {

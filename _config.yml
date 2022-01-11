@@ -1,15 +1,16 @@
 title: "Sintab srl"
 email: "info@sintab.it"
 description: >- # this means to ignore newlines until "baseurl:"
- il nuovo fantastico look di Sintab srl
+ il nuovo fantastico look di Sintab srl scritto in Jekyll
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.sintab.it" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
 facebook_url: https://www.facebook.com/sintabsrl
 twitter_url: https://twitter.com/sintabsrl
-github_url:  https://github.com/francescolv
-pinterest_url: https://www.pinterest.com/sintabsrl
-linkedin_url: https://www.linkenin.com/sintabsrl
+#github_url:  https://github.com/francescolv
+#pinterest_url: https://www.pinterest.com/sintabsrl
+linkedin_url: https://www.linkedin.com/company/514453
 instagram_url: https://www.instagram.com/sintabsrl
+youtube_url: https://www.youtube.com/channel/UCaYXkTwT3bkxhrsSNKxqN2A
 logo: "/assets/img/logo/logo.png"
 logo_2: "/assets/img/logo/logo_2.png"
 
@@ -18,6 +19,13 @@ permalink: "/:title"
 
 # Build settings
 markdown: kramdown
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+  
 theme: minima
 plugins:
   - jekyll-feed

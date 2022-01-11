@@ -1,10 +1,20 @@
 ---
 layout: featured
-title: Lloyd's Register Quality
-icon: /assets/img/icons/algolia-brands.svg
-classecss: qualita
+title: ISO 9001:2015
+icon: /assets/img/icons/badge.svg
+classecss: sfondodefault
 #image: /assets/img/services/02.jpg
-description: Lloyd's Register Quality
+description: azienda certificata ISO9001
 ---
 
-<div class="row"><div class="col-md-12"><div class="service-details mb-40"><h3>Lloyd's Register Quality</h3><p>Certificata dal 2004 ai sensi della norma ISO 9001:2000, nel Novembre 2017 ha ottenuto da Lloyd's Register Quality Assurance la certificazione del sistema qualit&agrave; in conformit&agrave; alla norma ISO 9001:2015 (numero certificato 10039097) per:</p><p>"Progettazione ed erogazione di corsi di formazione. Progettazione ed erogazione di servizi integrati per l'organizzazione di aziende ed enti pubblici: consulenza per la gestione, organizzazione e miglioramento dei processi, sistemi di gestione per la qualit&agrave;, la sicurezza e l'ambiente".</p></div></div></div>
+### **ISO 9001:2015**
+
+Sintab srl è un’azienda certificata ISO9001 dal 2004 per 
+
+“Progettazione ed erogazione di corsi formazione, servizi integrati di consulenza per l’organizzazione aziendale e sistemi di gestione.”
+
+**Certificato n. 2334**
+
+La  ISO 9001:2008/2015 rappresenta oggi il nuovo riferimento, riconosciuto a livello mondiale, per la certificazione del sistema di gestione della qualità per le organizzazioni di tutti i settori produttivi e di tutte le dimensioni.
+
+La competenza di Quaser Certificazioni S.r.l. e la valenza dei risultati delle valutazioni di conformità effettuate sono garantite dall'attività di accreditamento svolta da ACCREDIA - Ente Italiano di Accreditamento.
